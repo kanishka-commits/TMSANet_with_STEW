@@ -1,0 +1,7 @@
+Epoch 1: Train Loss 1.0833 Acc 0.3333 | Test Loss 1.2246 Acc 0.3333 Kappa 0.0000
+Epoch 2: Train Loss 0.6148 Acc 0.7255 | Test Loss 1.2129 Acc 0.3333 Kappa 0.0000
+Epoch 3: Train Loss 0.3315 Acc 0.8913 | Test Loss 1.1541 Acc 0.5556 Kappa 0.2500
+Epoch 4: Train Loss 0.2472 Acc 0.9149 | Test Loss 1.1467 Acc 0.5556 Kappa 0.2500
+Epoch 5: Train Loss 0.1249 Acc 1.0000 | Test Loss 1.2146 Acc 0.5556 Kappa 0.2500
+Epoch 6: Train Loss 0.0836 Acc 1.0000 | Test Loss 1.2480 Acc 0.5556 Kappa 0.2500
+Epoch 7: Train Loss 0.0575 Acc 1.0000 | Test Loss 1.2519 Acc 0.5556 Kappa 0.2500

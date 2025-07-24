@@ -1,0 +1,42 @@
+Using device: cpu
+Using device: cpu
+Epoch [1/20] | Train Loss: 1.1809 Acc: 0.3542 | Test Loss: 0.8714 Acc: 0.5556 Kappa: 0.0000 | LR: 0.000050 | Time: 10.6s
+Epoch [2/20] | Train Loss: 0.5982 Acc: 0.8000 | Test Loss: 0.7722 Acc: 0.6667 Kappa: 0.2703 | LR: 0.000050 | Time: 12.8s
+Epoch [3/20] | Train Loss: 0.3884 Acc: 0.8511 | Test Loss: 0.7207 Acc: 0.6667 Kappa: 0.3077 | LR: 0.000050 | Time: 11.9s
+Epoch [4/20] | Train Loss: 0.2311 Acc: 0.9792 | Test Loss: 0.6993 Acc: 0.5556 Kappa: 0.1000 | LR: 0.000050 | Time: 12.1s
+Epoch [5/20] | Train Loss: 0.1418 Acc: 1.0000 | Test Loss: 0.7577 Acc: 0.5556 Kappa: 0.0526 | LR: 0.000050 | Time: 12.9s
+Epoch [6/20] | Train Loss: 0.0654 Acc: 1.0000 | Test Loss: 0.8174 Acc: 0.4444 Kappa: -0.2162 | LR: 0.000050 | Time: 11.5s
+Epoch [7/20] | Train Loss: 0.0400 Acc: 1.0000 | Test Loss: 0.8932 Acc: 0.4444 Kappa: -0.2162 | LR: 0.000050 | Time: 12.4s
+Epoch [8/20] | Train Loss: 0.0394 Acc: 1.0000 | Test Loss: 0.9387 Acc: 0.4444 Kappa: -0.2162 | LR: 0.000050 | Time: 11.4s
+Epoch [9/20] | Train Loss: 0.0270 Acc: 1.0000 | Test Loss: 0.9448 Acc: 0.4444 Kappa: -0.2162 | LR: 0.000050 | Time: 11.9s
+Epoch [10/20] | Train Loss: 0.0118 Acc: 1.0000 | Test Loss: 0.9453 Acc: 0.4444 Kappa: -0.2162 | LR: 0.000025 | Time: 11.6s
+Epoch [11/20] | Train Loss: 0.0135 Acc: 1.0000 | Test Loss: 0.9767 Acc: 0.4444 Kappa: -0.2162 | LR: 0.000025 | Time: 12.2s
+Epoch [12/20] | Train Loss: 0.0076 Acc: 1.0000 | Test Loss: 1.0030 Acc: 0.4444 Kappa: -0.2162 | LR: 0.000025 | Time: 12.1s
+Epoch [13/20] | Train Loss: 0.0059 Acc: 1.0000 | Test Loss: 1.0255 Acc: 0.4444 Kappa: -0.2162 | LR: 0.000025 | Time: 11.6s
+Epoch [14/20] | Train Loss: 0.0029 Acc: 1.0000 | Test Loss: 1.0403 Acc: 0.4444 Kappa: -0.2162 | LR: 0.000025 | Time: 11.1s
+Epoch [15/20] | Train Loss: 0.0034 Acc: 1.0000 | Test Loss: 1.0399 Acc: 0.4444 Kappa: -0.2162 | LR: 0.000025 | Time: 12.5s
+Epoch [16/20] | Train Loss: 0.0035 Acc: 1.0000 | Test Loss: 1.0338 Acc: 0.4444 Kappa: -0.2162 | LR: 0.000013 | Time: 11.5s
+Epoch [17/20] | Train Loss: 0.0034 Acc: 1.0000 | Test Loss: 1.0176 Acc: 0.4444 Kappa: -0.2162 | LR: 0.000013 | Time: 12.3s
+Epoch [18/20] | Train Loss: 0.0049 Acc: 1.0000 | Test Loss: 1.0377 Acc: 0.4444 Kappa: -0.2162 | LR: 0.000013 | Time: 11.9s
+Epoch [19/20] | Train Loss: 0.0024 Acc: 1.0000 | Test Loss: 1.0223 Acc: 0.4444 Kappa: -0.2162 | LR: 0.000013 | Time: 13.0s
+Epoch [20/20] | Train Loss: 0.0028 Acc: 1.0000 | Test Loss: 1.0030 Acc: 0.4444 Kappa: -0.2162 | LR: 0.000013 | Time: 12.7s
+
+Training complete.
+Best Test Accuracy: 0.6667
+Best Kappa: 0.2703
+
+Classification Report on last test predictions:
+              precision    recall  f1-score   support
+
+           1       0.00      0.00      0.00         4
+           2       0.50      0.80      0.62         5
+
+    accuracy                           0.44         9
+   macro avg       0.25      0.40      0.31         9
+weighted avg       0.28      0.44      0.34         9
+
+Confusion Matrix:
+[[0 4]
+ [1 4]]
+
+✅ Finished training. Best Accuracy: 0.6667, Best Kappa: 0.2703
